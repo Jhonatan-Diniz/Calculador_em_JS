@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="principal">
+
+            <h1>Calculadora</h1>
+    
+            <div id="resul">
+                <p id="resul"></p>
+            </div>
+            
+            <div id="teclado">
+
+                <div id="teclaslinha1">
+                    <input type="button" value='CE' id="CE" class="teclas" onclick="apagar()">
+                    <input type="button" value=" ← " id="apagar" class="teclas" onclick="escrever()">
+                    <input type="button" value="%" id="porcen" name="teclas" onclick="escrever(value)">
+                    <input type="button" class="simbolos" value="÷" id="div" name="teclas" onclick="escrever(value)">
+                </div>
+        
+                <div id="teclaslinha2" >
+                    <input type="button" value="7" id="sete" class="teclas" onclick="escrever(value)">
+                    <input type="button" value="8" id="oito" class="teclas" onclick="escrever(value)">
+                    <input type="button" value="9" id="nove" class="teclas" onclick="escrever(value)">
+                    <input type="button" class="simbolos" value="x" id="multi" name="teclas" onclick="escrever(value)">
+                </div>
+        
+                <div id="teclaslinha3" >
+                    <input type="button" value="4" id="quatro" class="teclas" onclick="escrever(value)">
+                    <input type="button" value="5" id="cinco" class="teclas" onclick="escrever(value)">
+                    <input type="button" value="6" id="seis" class="teclas" onclick="escrever(value)">
+                    <input type="button" class="simbolos" value="-" id="sub" name="teclas" onclick="escrever(value)">
+                </div>
+        
+                <div id="teclaslinha4" >
+                    <input type="button" value="1" id="um" class="teclas" onclick="escrever(value)">
+                    <input type="button" value="2" id="dois" class="teclas" onclick="escrever(value)">
+                    <input type="button" value="3" id="tres" class="teclas" onclick="escrever(value)">
+                    <input type="button" class="simbolos" value="+" id="soma" name="teclas" onclick="escrever(value)">
+                </div>
+        
+                <div id="teclaslinha5">
+                    <input type="button" value="0" id="zero" class="teclas" onclick="escrever(value)">
+                    <input type="button" value="." id="ponto" class="teclas" onclick="escrever(value)">
+                    <input type="button" class="simbolos" value="=" id="resultado" class="teclas" onclick="resultado()">
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html

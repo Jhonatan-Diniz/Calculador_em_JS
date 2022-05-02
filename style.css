@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(to left, rgb(55, 19, 1), rgb(103, 38, 0));
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.566);
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    padding: 1.5%;
+    border-radius: 40px;
+    box-shadow: 0 0 0.2em orange;
+    margin-top: 8em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+p#resul {
+    background-color: grey;
+    height: 70px;
+    width: 400px;
+    text-align: right;
+    line-height: 70px;
+    font-size: 2.5em;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    overflow-y: hidden;
+}
+
+input {
+    width: 95px;
+    height: 75px;
+    border-radius: 40px;;
+}
+
+.simbolos {
+    background-color: orange;
+}
+
+input#resultado {
+    width: 190px;
+}
